@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+	font-family: "helvetica";
+	src: url("./assets/Helvetica-Font/Helvetica");
+	src: url("./assets/Helvetica-Font/Helvetica-Bold");
+	src: url("./assets/Helvetica-Font/Helvetica-Light");
+}
+@layer base {
+  html {
+    font-family: helvetica;
+  }
+}
+@layer components {
+	.body-10-light {
+		@apply text-[10px] leading-[14px] font-light;
+	}
+	.body-10-regular {
+		@apply text-[10px] leading-[14px] font-normal;
+	}
+	.body-10-bold {
+		@apply text-[10px] leading-[14px] font-bold;
+	}
+	.body-12-light {
+		@apply text-[12px] leading-[18px] font-light;
+	}
+	.body-12-regular {
+		@apply text-[12px] leading-[18px] font-normal;
+	}
+	.body-12-bold {
+		@apply text-[12px] leading-[18px] font-bold;
+	}
+	.body-14-light {
+		@apply text-[14px] leading-[20px] font-light;
+	}
+	.body-14-regular {
+		@apply text-[14px] leading-[20px] font-normal;
+	}
+	.body-14-bold {
+		@apply text-[14px] leading-[20px] font-bold;
+	}
+	.title-16-light {
+		@apply text-[16px] leading-[24px] font-light;
+	}
+	.title-16-regular {
+		@apply text-[16px] leading-[24px] font-normal;
+	}
+	.title-16-bold {
+		@apply text-[16px] leading-[24px] font-bold;
+	}
+	.title-18-light {
+		@apply text-[18px] leading-[26px] font-light;
+	}
+	.title-18-regular {
+		@apply text-[18px] leading-[26px] font-normal;
+	}
+	.title-18-bold {
+		@apply text-[18px] leading-[26px] font-bold;
+	}
+	.heading-20-light {
+		@apply text-[20px] leading-[30px] font-light;
+	}
+	.heading-20-regular {
+		@apply text-[20px] leading-[30px] font-normal;
+	}
+	.heading-20-bold {
+		@apply text-[20px] leading-[30px] font-bold;
+	}
+	.heading-24-light {
+		@apply text-[24px] leading-[36px] font-light;
+	}
+	.heading-24-regular {
+		@apply text-[24px] leading-[36px] font-normal;
+	}
+	.heading-24-bold {
+		@apply text-[24px] leading-[36px] font-bold;
+	}
+
+	/* component	*/
+	.nav-mobile {
+		@apply translate-x-full;
+	}
+	.nav-mobile.active {
+		@apply translate-x-0;
+	}
+}
